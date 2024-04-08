@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,31,104,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+.login-container{
+    background-color: rgb(109, 123, 200);
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(20, 19, 19); 
+}
+
+.login-container h1 {
+
+    text-align: center;
+    margin: 20px;
+
+}
+
+.form-campos{
+    margin-bottom: 20px;
+
+}
+
+.form-campos label{
+    display: block;
+    margin: 5px;
+}
+
+.form-campos input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(20, 19, 19);
+    border-radius: 5px;
+
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color:#95b0cd ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+.links-container{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+.links-container a{
+    padding: 10px;
+    font-size: 16px;
+    align-items:center;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.links-container a:hover{
+    color: #ffffff;
+}
